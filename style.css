@@ -1,0 +1,129 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-width: 320px;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #4d2323;
+}
+div {
+    box-sizing: border-box;
+}
+.container {
+    margin: 0 auto;
+    width: 1200px;
+}
+.header {
+    height: 50px;
+    background-color: #829985;
+}
+nav {
+    float: right;
+}
+.menu {
+    padding: 0px;
+    margin: 15px 0px;
+}
+.nav-item {
+    float: left;
+    display: block;
+    margin-right: 41px;
+}
+.nav-link {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+.profile {
+    padding-bottom: 30px;
+    border-bottom: 15px solid #d7d1c9;
+}
+.profile img {
+    width: 200px;
+    height: 200px;
+    margin-left: 150px;
+}
+.profile-title {
+    margin: 30px 100px;
+    float: right;
+    text-align: center;
+    color: #4d2323;
+    text-transform: uppercase;
+}
+.profile-title h1 {
+    border-bottom: solid #4d2323;
+    padding-bottom: 15px;
+}
+section {
+    display: block;
+}
+.section {
+    width: 550px;
+    padding: 10px;
+    padding-bottom: 35px;
+    border-bottom: 1px solid #672f2f;
+  }
+.section h2 {
+    color: #829985;
+    text-transform: uppercase;
+}
+.section ul {
+    list-style-type: none;
+    margin: 0 -40px;
+}
+#contacts {
+    float: left;
+}
+#summary {
+  float: right;
+  padding-bottom: 71px;
+}
+#skills {
+    float: left;
+}
+#code {
+  float: right;
+}
+#courses {
+    float: left;
+}
+#projects {
+  float: right;
+}
+#education {
+    float: left;
+    border-bottom: none;
+}
+#english {
+  float: right;
+  padding-bottom: 44px;
+  border-bottom: none;
+}
+.footer {
+    color: #fff;
+    height: 70px;
+    background-color: #829985;
+}
+.copyright {
+    float: left;
+    margin-left: 10px;
+}
+.git {
+    margin: 16px;
+    float: left;
+}
+.rs {
+    float: right;
+}
+.rs img {
+    height: 50px;
+    width: 100px;
+    margin-top: 10px;
+}
